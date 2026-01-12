@@ -1,0 +1,22 @@
+{
+  "Wizard": [
+    {
+      "name": "Fire",
+      "normalMin": 5,
+      "normalMax": 10,
+      "criticalMin": 11,
+      "criticalMax": 20,
+      "criticalChance": 0.2,
+      "effectChance": 0
+    },
+    {
+      "name": "Ice",
+      "normalMin": 1,
+      "normalMax": 5,
+      "criticalMin": 6,
+      "criticalMax": 10,
+      "criticalChance": 0.25,
+      "effectChance": 0.1
+    }
+  ]
+}

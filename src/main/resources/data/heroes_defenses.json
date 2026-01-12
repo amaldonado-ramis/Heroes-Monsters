@@ -1,0 +1,13 @@
+{
+  "Wizard": [
+    {
+      "name": "Heal",
+      "type": "HEAL",
+      "outcomes": [
+        { "chance": 0.10, "value": 85 },
+        { "chance": 0.20, "value": 50 },
+        { "chance": 0.70, "value": 30 }
+      ]
+    }
+  ]
+}

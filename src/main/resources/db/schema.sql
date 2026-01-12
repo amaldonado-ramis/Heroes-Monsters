@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS heroes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    type TEXT NOT NULL,
+    max_hp INTEGER NOT NULL,
+    current_hp INTEGER NOT NULL
+);
