@@ -30,8 +30,7 @@ public class MainMenu extends Menu {
     }
 
     private void startGame(Character hero) {
-        while (true) {
-            new GameMenu(hero).show();
-        }
+        while (hero.isAlive()) { new GameMenu(hero).show(); }
+        System.out.println("[GAME OVER]: You died!");
     }
 }

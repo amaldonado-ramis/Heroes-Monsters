@@ -42,8 +42,12 @@ public class Character {
     }
     public void strengthen(double amount) { strength += amount; }
 
-    public Attack getAttack(int index) { return attacks.get(index); }
-    public Defense getDefense(int index) { return defenses.get(index); }
+    public Attack getAttack(int index) { return this.attacks.get(index); }
+    public Defense getDefense(int index) { return this.defenses.get(index); }
+
+    public List<Attack> getAttacks() { return this.attacks; }
+    public List<Defense> getDefenses() { return this.defenses; }
+
 
     public String getName() { return this.name; }
     public String getType() { return this.type; }

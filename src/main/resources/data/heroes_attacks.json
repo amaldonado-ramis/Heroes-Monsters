@@ -18,5 +18,16 @@
       "criticalChance": 0.25,
       "effectChance": 0.1
     }
+  ],
+  "Warrior": [
+    {
+      "name": "Smite",
+      "normalMin": 10,
+      "normalMax": 15,
+      "criticalMin": 16,
+      "criticalMax": 25,
+      "criticalChance": 0.2,
+      "effectChance": 0
+    }
   ]
 }

@@ -20,8 +20,8 @@ public class CharacterFactory {
     }
 
     public static Character createMonster(String name, String type) {
-        List<Attack> attacks = AttackLoader.load("data/heroes_attacks.json", "Wizard");
-        List<Defense> defenses = DefenseLoader.load("data/heroes_defenses.json", "Wizard");
+        List<Attack> attacks = AttackLoader.load("data/heroes_attacks.json", "Warrior");
+        List<Defense> defenses = DefenseLoader.load("data/heroes_defenses.json", "Warrior");
 
         double maxHp = switch (type) {
             case "Warrior" -> 150;

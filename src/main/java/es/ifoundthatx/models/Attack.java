@@ -9,6 +9,8 @@ public class Attack {
 
     public Attack(AttackData data) { this.data = data; }
 
+    public String getAttackName() { return this.data.name; }
+
     public AttackResult execute() {
         Random r = new Random();
 

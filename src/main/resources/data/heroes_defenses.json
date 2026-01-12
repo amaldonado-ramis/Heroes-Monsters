@@ -9,5 +9,16 @@
         { "chance": 0.70, "value": 30 }
       ]
     }
+  ],
+  "Warrior": [
+    {
+      "name": "Block",
+      "type": "BLOCK",
+      "outcomes": [
+        { "chance": 0.15, "value": 85 },
+        { "chance": 0.35, "value": 50 },
+        { "chance": 0.50, "value": 20 }
+      ]
+    }
   ]
 }

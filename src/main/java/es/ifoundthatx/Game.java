@@ -10,7 +10,7 @@ public class Game {
 
     private void showTitle() {
         System.out.println("=".repeat(30));
-        System.out.println(" ".repeat(5) + "HEROES & MONSTERS" + " ".repeat(5));
+        System.out.println(" ".repeat(5) + "HEROES & MONSTERS");
         System.out.println("=".repeat(30));
     }
 

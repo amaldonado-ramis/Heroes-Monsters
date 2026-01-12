@@ -24,11 +24,11 @@ public class CombatMenu extends Menu {
 
     @Override
     protected void userChoice() {
-        int option = InputReader.readInt(1, 3, "/battle/");
+        int option = InputReader.readInt(1, 4, "/combat/");
 
         switch (option) {
             case 1 -> {
-                combat.playerAttack(0);
+                combat.playerAttack(new ChooseAttackMenu().chooseAttack(player));
                 if (!enemy.isAlive()) { this.hasWon = combat.hasWon(); }
 
                 combat.monsterAttack(0);
@@ -39,7 +39,7 @@ public class CombatMenu extends Menu {
                 System.out.println(player.getCurrentHp());
                 System.out.println(enemy.getCurrentHp());
             }
-            case 4 -> System.exit(0);
+            case 4 -> this.isBattleOver = true;
         }
         this.isBattleOver = combat.isBattleOver();
     }
